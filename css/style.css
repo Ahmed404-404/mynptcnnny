@@ -349,7 +349,7 @@ section.services .cards .card{
     gap: 90px;
     padding: 20px;
     color: var(--main-clr);
-    background: url(/images/airconditioner-1.jpg);
+    background: url(../images/airconditioner-1.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
