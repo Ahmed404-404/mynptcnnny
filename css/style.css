@@ -628,10 +628,6 @@ section.brands .container .heading{
     align-items: flex-start;
     gap: 30px;
 }
-
-section.brands .container .flex-parent{
-
-}
 section.brands .container .flex-child:last-child{
     display: flex;
     align-items: center;
@@ -682,17 +678,11 @@ section.location .flex-child:first-child{
     flex-direction: column;
     gap: 15px;
 }
-section.location .text:first-child{
-
-}
 section.location .text h3{
     margin: 0;
 }
 section.location .text p{
     margin-top: 5px;
-}
-section.location .text:nth-child(2){
-    
 }
 section.location .text:nth-child(2) .contact{
     display: flex;
@@ -710,20 +700,19 @@ section.location .text:nth-child(2) .contact .social i{
 section.location .text:nth-child(2) .contact .social i:last-child{
     color: var(--second-clr);
 }
-
 section.location .flex-child:last-child{
     text-align: center;
     flex: 1;
     width: 450px;
     max-width: 100%;
     background-color: #c9bb90;
+    background-image: url(../images/map.jpg);
 }
 /* end location */
 
 /* start footer */
 footer{
     padding-block: 60px;
-
 }
 footer .container{
     display: flex;
